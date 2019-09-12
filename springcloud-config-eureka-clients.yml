@@ -16,7 +16,7 @@ eureka:
       defaultZone: http://eureka7001.com:7001/eureka/   #设置eureka server交互的地址查询服务和注册服务都需要依赖这个地址
 
 spring:
-  profile: test
+  profiles: test
   application:
     name: springcloud-config-eureka-clients
     
