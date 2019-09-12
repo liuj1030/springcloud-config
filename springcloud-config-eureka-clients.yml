@@ -7,7 +7,7 @@ server:
   port: 7001
   
 spring:
-  profiles: test
+  profiles: dev
   application:
     name: springcloud-config-eureka-clients
     
@@ -28,7 +28,7 @@ server:
   port: 7001
   
 spring:
-  profiles: dev
+  profiles: test
   application:
     name: springcloud-config-eureka-clients
   
