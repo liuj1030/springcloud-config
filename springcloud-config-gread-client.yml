@@ -12,7 +12,7 @@ mybatis:
 spring:
   profiles: dev
   application:
-    name: springcloud-config-gread-clients
+    name: springcloud-config-gread-client
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource #当前数据源操作类型
     driver-class-name: com.mysql.cj.jdbc.Driver #org.gjt.mm.mysql.Driver  #mysql驱动包
@@ -59,7 +59,7 @@ mybatis:
 spring:
   profiles: test
   application:
-    name: springcloud-config-gread-clients
+    name: springcloud-config-gread-client
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource #当前数据源操作类型
     driver-class-name: com.mysql.cj.jdbc.Driver #org.gjt.mm.mysql.Driver  #mysql驱动包
